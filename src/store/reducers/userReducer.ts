@@ -1,8 +1,4 @@
-import { UserAction, UserActionTypes, UserState } from '../../types/todo';
-
-// const FETCH_USERS = 'FETCH_USERS';
-// const FETCH_USERS_SUCCESS = 'FETCH_USERS_SUCCESS';
-// const FETCH_USERS_ERROR = 'FETCH_USERS_ERROR';
+import { UserAction, UserActionTypes, UserState } from '../../types/user';
 
 const initialState: UserState = {
     users: [],
